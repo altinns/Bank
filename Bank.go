@@ -87,7 +87,7 @@ if passcodeuser==id543.passcode{
 			goto withdraw1
 		} 
 		id543.amount=id543.amount-widhdrawcommand
-		fmt.Println("Current balance is %d ",id543.amount)
+		fmt.Printf("Current balance is %d\n ",id543.amount)
 
 		
 		goto start1 
@@ -98,7 +98,7 @@ if passcodeuser==id543.passcode{
 	var widhdrawcommand int 
 	fmt.Scan(&widhdrawcommand)
 	id543.amount=id543.amount+widhdrawcommand
-	fmt.Println("Current balance is %d ",id543.amount)
+	fmt.Printf("Current balance is %d\n ",id543.amount)
 	goto start1
 	}
 	 if account==3{
@@ -139,7 +139,7 @@ if passcodeuser==id293.passcode{
 			goto withdraw2
 		} 
 	id293.amount=id293.amount-widhdrawcommand
-	fmt.Println("Current balance is %d ",id293.amount)
+	fmt.Printf("Current balance is %d\n ",id293.amount)
 	goto start2
 	}
 	if account==2{
@@ -147,7 +147,7 @@ if passcodeuser==id293.passcode{
 	var widhdrawcommand int 
 	fmt.Scan(&widhdrawcommand)
 	id293.amount=id293.amount+widhdrawcommand
-	fmt.Println("Current balance is %d ",id293.amount)
+	fmt.Printf("Current balance is %d\n ",id293.amount)
 	goto start2
 	}
 	if account==3{
@@ -185,7 +185,7 @@ if passcodeuser==id764.passcode{
 			goto withdraw3
 		} 
 		id764.amount=id764.amount-widhdrawcommand
-		fmt.Println("Current balance is %d ",id764.amount)
+		fmt.Printf("Current balance is %d\n ",id764.amount)
 		goto start3
 	}
 	if account==2{
@@ -193,7 +193,7 @@ if passcodeuser==id764.passcode{
 	var widhdrawcommand int 
 	fmt.Scan(&widhdrawcommand)
 	id764.amount=id764.amount+widhdrawcommand
-	fmt.Println("Current balance is %d ",id764.amount)
+	fmt.Printf("Current balance is %d\f ",id764.amount)
 	goto start3
 	}
 	if account==3{
@@ -229,7 +229,7 @@ if passcodeuser==id154.passcode{
 		fmt.Scan(&widhdrawcommand)
 		
 		id154.amount=id154.amount-widhdrawcommand
-		fmt.Println("Current balance is %d ",id154.amount)
+		fmt.Printf("Current balance is %d\n ",id154.amount)
 		goto start4
 	}
 	if account==2{
@@ -237,7 +237,7 @@ if passcodeuser==id154.passcode{
 	var widhdrawcommand int 
 	fmt.Scan(&widhdrawcommand)
 	id154.amount=id154.amount+widhdrawcommand
-	fmt.Println("Current balance is %d ",id154.amount)
+	fmt.Printf("Current balance is %d\n ",id154.amount)
 	goto start4
 	}
 	if account==3{
@@ -275,7 +275,7 @@ fmt.Print("1.Widthraw,2.Deposit,check balance")
 			goto withdraw4
 		} 
 		id203.amount=id203.amount-widhdrawcommand
-		fmt.Println("Current balance is %d ",id203.amount)
+		fmt.Printf("Current balance is %d\n ",id203.amount)
 		goto start5
 
 		
@@ -285,7 +285,7 @@ fmt.Print("1.Widthraw,2.Deposit,check balance")
 	var widhdrawcommand int 
 	fmt.Scan(&widhdrawcommand)
 	id203.amount=id203.amount+widhdrawcommand
-	fmt.Println("Current balance is %d ",id203.amount)
+	fmt.Printf("Current balance is %d\n ",id203.amount)
 	goto start5
 	}
 	if account==3{
@@ -322,7 +322,7 @@ fmt.Print("1.Widthraw,2.Deposit,check balance")
 			goto withdraw5
 		} 
 		id199.amount=id199.amount-widhdrawcommand
-		fmt.Println("Current balance is %d ",id199.amount)
+		fmt.Printf("Current balance is %d\n ",id199.amount)
 
 	goto start6
 }
@@ -331,7 +331,7 @@ if account==2{
 	var widhdrawcommand int 
 	fmt.Scan(&widhdrawcommand)
 	id199.amount=id199.amount+widhdrawcommand
-	fmt.Println("Current balance is %d ",id199.amount)
+	fmt.Printf("Current balance is %d\n ",id199.amount)
 	goto start6
 	}
 	if account==3{
